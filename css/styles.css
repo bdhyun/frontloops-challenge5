@@ -1,0 +1,139 @@
+html {
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  font-family: "Roboto";
+  justify-content: center;
+  margin: 0;
+  min-height: 100%;
+}
+
+h1 {
+  color: #299CFF;
+  display: inline-block;
+  font-family: "Prompt";
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+p {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+hr {
+  border: none;
+  border-radius: 5px;
+  border-top: 5px solid #299CFF;;
+  margin: 0 auto;
+  width: 6%;
+}
+
+.container {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #282828;
+  padding: 2%;
+  width: 20%;
+}
+
+/* Departure Arrival Container */
+
+.departure-arrival-container {
+  align-items: center;
+  display: flex;
+}
+
+.departure-location {
+  display: inline-block;
+}
+
+.arrival-location {
+  display: inline-block;
+  text-align: right;
+}
+
+.location-name {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.dashed-line {
+  border: none;
+  border-top: 2px dashed #282828;
+  width: 100%;
+  margin: 8% 0;
+}
+
+/* Flight Gate Seat Container */
+
+.fgs-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-boxes {
+  display: inline-block;
+}
+
+.headers {
+  color: #8f8f8f;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding-bottom: 2%;
+}
+
+/* Passenger Class Departure QR Code Container */
+
+.pcdqr-container {
+  align-items: start;
+  display: flex;
+  margin-top: 5%;
+}
+
+.pcd-container {
+  display: inline-block;
+  /* margin-right: 5%; */
+}
+
+.pcd-info-boxes {
+  display: inline-block;
+  padding: 0;
+}
+
+.passenger {
+  margin-bottom: 10%;
+}
+
+.class {
+  margin-bottom: 10%;
+}
+
+.divider {
+  border: none;
+  margin: auto;
+}
+
+.qr-container {
+  display: inline-block;
+  text-align: center;
+  padding-top: 1%;
+}
+
+.qr-code {
+  width: 100%;
+}
